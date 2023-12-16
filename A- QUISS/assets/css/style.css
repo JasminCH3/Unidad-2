@@ -1,0 +1,60 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    
+}
+
+.container{
+    outline: solid black;
+    background-color: rgb(163, 154, 172);
+    margin: 100px auto;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+}
+
+.pregunta_nombre{
+    text-align: center;
+}
+
+.pregunta_enunciado{
+    text-align: justify;
+}
+
+.pregunta_contenido{
+    padding: 15px;
+}
+
+.pregunta_alternativas{
+    outline: rgb(148, 109, 109) solid;
+    height: 200px;
+}
+
+.pregunta_alternativas button{
+    display: block;
+    margin: 5px auto;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.pregunta_alternativas button:hover{
+    background-color: rgb(184, 151, 214);
+}
+
+#cuadro{
+    height: 450px;
+}
+
+#barra-progreso{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
